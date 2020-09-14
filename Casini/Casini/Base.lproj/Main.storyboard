@@ -35,14 +35,14 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J5L-s6-fJj">
-                                        <rect key="frame" x="0.0" y="0.0" width="393.5" height="672"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="672"/>
                                     </imageView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="J5L-s6-fJj" secondAttribute="trailing" id="Ndo-Fu-8lE"/>
-                                    <constraint firstItem="J5L-s6-fJj" firstAttribute="top" secondItem="XQg-K8-yAZ" secondAttribute="top" id="ck9-md-ZG2"/>
-                                    <constraint firstItem="J5L-s6-fJj" firstAttribute="leading" secondItem="XQg-K8-yAZ" secondAttribute="leading" id="sCR-q8-cRB"/>
-                                    <constraint firstAttribute="bottom" secondItem="J5L-s6-fJj" secondAttribute="bottom" id="zbe-OT-Fwz"/>
+                                    <constraint firstAttribute="trailing" secondItem="J5L-s6-fJj" secondAttribute="trailing" id="3pr-HU-2NP"/>
+                                    <constraint firstAttribute="bottom" secondItem="J5L-s6-fJj" secondAttribute="bottom" id="77u-v2-3uX"/>
+                                    <constraint firstItem="J5L-s6-fJj" firstAttribute="leading" secondItem="XQg-K8-yAZ" secondAttribute="leading" id="xQ6-QT-7Ff"/>
+                                    <constraint firstItem="J5L-s6-fJj" firstAttribute="top" secondItem="XQg-K8-yAZ" secondAttribute="top" id="xT0-NP-OdK"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="delegate" destination="JEX-9P-axG" id="QVa-am-5nN"/>
@@ -58,11 +58,11 @@
                             <constraint firstItem="UI9-ZO-AE2" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="Ciq-Pz-KrC"/>
                             <constraint firstItem="XQg-K8-yAZ" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" id="GfW-20-p2e"/>
                             <constraint firstItem="XQg-K8-yAZ" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" id="Kjf-lV-oMH"/>
+                            <constraint firstItem="J5L-s6-fJj" firstAttribute="height" secondItem="svH-Pt-448" secondAttribute="height" multiplier="0.75" id="WvW-4U-9BT"/>
                             <constraint firstAttribute="bottom" secondItem="XQg-K8-yAZ" secondAttribute="bottom" id="f4H-dC-bqg"/>
                             <constraint firstItem="UI9-ZO-AE2" firstAttribute="centerY" secondItem="svH-Pt-448" secondAttribute="centerY" id="hm6-ht-dDb"/>
-                            <constraint firstItem="J5L-s6-fJj" firstAttribute="height" secondItem="svH-Pt-448" secondAttribute="height" multiplier="0.75" id="ldV-qP-HMt"/>
                             <constraint firstItem="XQg-K8-yAZ" firstAttribute="trailing" secondItem="VUw-jc-0yf" secondAttribute="trailing" id="pJL-49-vK5"/>
-                            <constraint firstItem="J5L-s6-fJj" firstAttribute="width" secondItem="svH-Pt-448" secondAttribute="width" multiplier="0.95" id="xSz-bb-7vn"/>
+                            <constraint firstItem="J5L-s6-fJj" firstAttribute="width" secondItem="svH-Pt-448" secondAttribute="width" id="zeg-aF-EMF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
