@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8157B271263D3BA8008AFB38 /* GroupGCDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8157B270263D3BA8008AFB38 /* GroupGCDViewController.swift */; };
 		CEF51FF2250F68A60025480B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF51FF1250F68A60025480B /* AppDelegate.swift */; };
 		CEF51FF4250F68A60025480B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF51FF3250F68A60025480B /* SceneDelegate.swift */; };
 		CEF51FF6250F68A60025480B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF51FF5250F68A60025480B /* MasterViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8157B270263D3BA8008AFB38 /* GroupGCDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupGCDViewController.swift; sourceTree = "<group>"; };
 		CEF51FEE250F68A60025480B /* Casini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF51FF1250F68A60025480B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF51FF3250F68A60025480B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				CEF51FF3250F68A60025480B /* SceneDelegate.swift */,
 				CEF51FF5250F68A60025480B /* MasterViewController.swift */,
 				CEF51FF7250F68A60025480B /* DetailViewController.swift */,
+				8157B270263D3BA8008AFB38 /* GroupGCDViewController.swift */,
 				CEF51FF9250F68A60025480B /* Main.storyboard */,
 				CEF51FFC250F68A60025480B /* Assets.xcassets */,
 				CEF51FFE250F68A60025480B /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				CEF51FF2250F68A60025480B /* AppDelegate.swift in Sources */,
 				CEF51FF4250F68A60025480B /* SceneDelegate.swift in Sources */,
+				8157B271263D3BA8008AFB38 /* GroupGCDViewController.swift in Sources */,
 				CEF51FF6250F68A60025480B /* MasterViewController.swift in Sources */,
 				CEF51FF8250F68A60025480B /* DetailViewController.swift in Sources */,
 			);
